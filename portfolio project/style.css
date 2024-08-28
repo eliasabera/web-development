@@ -1,0 +1,327 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+  width: 100%;
+  height: 100vh;  
+  background-image: url("image/ela.webp");
+}
+.logo
+{
+    display: inline-block;
+    left: 2rem;
+    margin-top: 1rem;
+}
+.logo-text {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.logo-text .logo-s{
+    font-family: 'Roboto', sans-serif;
+    color: lightseagreen;
+}
+.nav-bar
+{
+    position: fixed;
+    display: inline-block;
+    right: 5rem;
+}
+.nav-bar ul li
+{
+    margin-top: 1rem;
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+.nav-bar ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-bar ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: sienna; 
+    transition: 0.5s;
+  }
+  .nav-bar ul li a:hover::after
+{
+  width: 100%;
+}
+.nav-bar ul li a:hover
+{
+    color: aqua;
+}
+.subsection
+{
+    display: none;
+}
+.subsection ul li{
+    display: block;
+    color: white;
+ }
+.nav-bar ul li:hover .subsection{
+    display: block;
+    position: absolute;
+    top: 2rem;
+    width: 7rem;
+    text-align: center;
+}
+.subsection ul li::after
+{
+  content: '';
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  background-color: sienna; 
+  transition: 0.5s;
+}
+.subsection ul li:hover::after
+{
+  width: 100%;
+}
+.header-content
+{
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+}
+.hello h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+}
+.name
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.front
+{
+    color: lightblue;
+}
+.ab h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.short
+{
+    font-family: 'Roboto', sans-serif;
+    width: 40rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.logos ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.instagram .fa-brands
+{
+    color: rgb(158, 56, 253);
+}
+.telegram .fa-brands
+{
+    color: lightskyblue;
+}
+.linked .fa-brands
+{
+    color: lightblue;
+}
+.about
+{
+  width: 100%;
+  height: 100vh;
+}
+.about-me
+{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.bio
+{
+    margin-top: 10rem;
+}
+.readd
+{
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;  
+    background-color:burlywood;
+    border: 1px solid  rgb(41,118,211) ; 
+}
+.readd:hover{
+    background-color: rgb(41,118,211) ;
+    color: white;
+}
+.about-mee
+{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.read
+{
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    background: none;
+    border: 1px solid  rgb(41,118,211) ;
+    text-transform: capitalize;
+}
+.read:hover{
+    background-color: rgb(41,118,211) ;
+    color: white;
+}
+.Services
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/onee.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Services-page
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.sample
+{
+    width: 20rem;
+    height: 30rem;
+    margin-top: 5rem;
+    border-radius: 2em;
+}
+.sample-title
+{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.sample-info
+{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.web-image
+{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1rem;
+
+}
+.skill-button
+{
+    margin-left: 6rem;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background: none;
+    border: 1px solid  rgb(41,118,211) ;
+    text-transform: capitalize;
+}
+.skill-button:hover
+{
+    background-color: rgb(41,118,211) ;
+    color: white;
+}
+.testmonial
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/4.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testmonial-page
+{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 0.3rem;
+
+}
+.person
+{
+    margin-top: 10rem;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 3rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+
+}
+.personn
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.punctuation-top
+{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.punctuation-bottom
+{
+    font-size: 4rem;
+    margin-left: 15rem;
+}
+.c-name{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.client-name{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.profession
+{
+    color: gray;
+}
+.testify
+{
+    display: inline-block;
+    width: 20rem;
+}
+.testify h3{
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.testify p{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0.5rem;
+}
+.rate{
+    margin-left: 1rem;
+}
+.fa-solid
+{
+    color: gold;
+}
